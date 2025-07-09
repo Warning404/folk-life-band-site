@@ -44,7 +44,7 @@
         </div>
         
         <!-- Play Button -->
-        <a href="#music" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-primary-500 to-purple-600 text-white font-medium rounded-full transition-transform hover:scale-105 animate-slide-up" style="animation-delay: 0.4s;">
+        <a href="#music" class="inline-flex items-center px-6 py-3 bg-gradient-to-r from-accent-600 to-primary-700 text-white font-medium rounded-full transition-transform hover:scale-105 animate-slide-up" style="animation-delay: 0.4s;">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -88,7 +88,7 @@
             <p class="text-gray-600 dark:text-gray-400 mb-8">
               พวกเราสร้างสรรค์ผลงานเพลงที่มีความหมายและสะท้อนเรื่องราวชีวิตของคนรุ่นใหม่ ด้วยซาวด์ที่ทันสมัยและเนื้อหาที่เข้าถึงง่าย
             </p>
-            <NuxtLink to="/about" class="inline-flex items-center px-5 py-2 bg-gradient-to-r from-primary-500 to-purple-600 text-white font-medium rounded-lg transition-transform hover:scale-105">
+            <NuxtLink to="/about" class="inline-flex items-center px-5 py-2 bg-gradient-to-r from-accent-500 to-accent-700 text-white font-medium rounded-lg transition-transform hover:scale-105">
               อ่านเพิ่มเติม
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -119,7 +119,7 @@
         </div>
         
         <div class="text-center mt-10">
-          <NuxtLink to="/tour" class="inline-flex items-center px-5 py-2 bg-gradient-to-r from-primary-500 to-purple-600 text-white font-medium rounded-lg transition-transform hover:scale-105">
+          <NuxtLink to="/tour" class="inline-flex items-center px-5 py-2 bg-gradient-to-r from-accent-500 to-accent-700 text-white font-medium rounded-lg transition-transform hover:scale-105">
             ดูอีเวนต์ทั้งหมด
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -146,7 +146,7 @@
         </div>
         
         <div class="text-center mt-10">
-          <NuxtLink to="/gallery" class="inline-flex items-center px-5 py-2 bg-gradient-to-r from-primary-500 to-purple-600 text-white font-medium rounded-lg transition-transform hover:scale-105">
+          <NuxtLink to="/gallery" class="inline-flex items-center px-5 py-2 bg-gradient-to-r from-accent-500 to-accent-700 text-white font-medium rounded-lg transition-transform hover:scale-105">
             ดูแกลเลอรี่ทั้งหมด
             <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
@@ -157,13 +157,13 @@
     </section>
 
     <!-- Contact CTA -->
-    <section class="py-20 bg-gradient-to-r from-primary-600 to-purple-700 text-white">
+    <section class="py-20 bg-gray-50 dark:bg-dark-200">
       <div class="container mx-auto px-4 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">ติดต่อเรา</h2>
-        <p class="max-w-2xl mx-auto mb-8">
+        <p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto mb-8">
           สนใจจ้างงาน ติดต่อสัมภาษณ์ หรือมีคำถามใดๆ เกี่ยวกับวงของเรา ติดต่อเราได้เลย
         </p>
-        <NuxtLink to="/contact" class="inline-flex items-center px-6 py-3 bg-white text-primary-600 font-medium rounded-full transition-transform hover:scale-105">
+        <NuxtLink to="/contact" class="inline-flex items-center px-6 py-3 bg-accent-600 text-white font-medium rounded-full transition-transform hover:scale-105 hover:bg-accent-700">
           ติดต่อเรา
           <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />

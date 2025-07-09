@@ -1,75 +1,58 @@
-# Nuxt Minimal Starter
+# Folk Life Band Website
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A modern, responsive website for a Thai folk/life music band built with Nuxt 3 and Tailwind CSS. This project showcases the band's music, performances, gallery, and provides contact information for bookings and inquiries.
+
+## Features
+
+- **Modern Design**: Warm, earthy color palette inspired by Thai folk music aesthetics
+- **Responsive Layout**: Fully responsive design that works on all devices
+- **Dark Mode**: Built-in dark mode with warm, folk-inspired dark theme
+- **Music Player**: Custom audio player for sampling the band's music
+- **Performance Calendar**: Upcoming shows and past performances
+- **Photo Gallery**: Showcasing the band's performances and behind-the-scenes moments
+- **Contact Form**: For bookings, press inquiries, and fan messages
+- **Interactive FAQ**: Common questions about bookings and collaborations
+
+## Tech Stack
+
+- **Framework**: [Nuxt 3](https://nuxt.com/) - Vue.js framework
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- **Dark Mode**: [@nuxtjs/color-mode](https://color-mode.nuxtjs.org/) - Dark mode support
+- **Animations**: Custom CSS animations and transitions
+- **Deployment**: Static site generation for optimal performance
 
 ## Setup
 
-Make sure to install dependencies:
-
 ```bash
-# npm
+# Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# Start development server
 npm run dev
 
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
+# Build for production
 npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
-Locally preview production build:
+## Project Structure
 
-```bash
-# npm
-npm run preview
+- `/pages` - Website pages (home, about, gallery, contact)
+- `/components` - Reusable Vue components
+- `/assets` - Static assets (images, fonts, etc.)
+- `/public` - Public files (favicon, robots.txt)
+- `/composables` - Shared composable functions
 
-# pnpm
-pnpm preview
+## Customization
 
-# yarn
-yarn preview
+The website uses a custom Tailwind theme with folk-inspired colors:
 
-# bun
-bun run preview
-```
+- **Primary**: Warm brown tones
+- **Accent**: Vibrant orange-red highlights
+- **Earth**: Natural, earthy tones
+- **Dark**: Warm dark theme for dark mode
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Edit `tailwind.config.js` to customize the color palette and other theme settings.
+
+## License
+
+MIT
